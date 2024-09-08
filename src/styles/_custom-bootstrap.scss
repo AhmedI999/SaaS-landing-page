@@ -1,0 +1,73 @@
+//// body
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+//// Font
+$font-family-sans-serif: 'open sans', sans-serif;
+$line-height-base: 1.7;
+
+//// Colors
+$primary: #4891FF;
+$secondary: #F5F5F5;
+$dark: #131316;
+$light: #F5F5F5;
+
+
+//// Buttons
+$btn-color: #fff;
+$btn-font-weight: 550;
+.btn-primary {
+  &:hover {
+    background-color: #1570F9 !important;
+  }
+}
+.btn-secondary {
+  &:hover {
+    background-color: #4891FF !important;
+  }
+}
+
+// Navbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// Spacers. These affect the 1 to 5 size of font-size, padding and margins
+$spacer: 1rem !default;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 6,
+        7: $spacer * 8,
+        8: $spacer * 12,
+) !default;
+// The following is important to create negative margins
+$enable-negative-margins: true;
+
+
+
+
+@import '~bootstrap/scss/bootstrap';
+

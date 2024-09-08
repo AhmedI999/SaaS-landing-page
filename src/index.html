@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <title>SASS | Landing-Page</title>
+</head>
+<body>
+    <div class="container pb-6">
+        <nav class="navbar navbar-expand-lg bg-transparent ms-lg-0 mb-5 ms-4">
+            <div class="container-fluid position-relative">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="Site logo" class="img-fluid">
+                </a>
+                <button class="navbar-btn btn bg-transparent" type="button">
+                    <i class="fa-solid fa-bars fa-2x text-black"></i>
+                </button>
+                <div class="navbar-menu-container">
+                    <div class="navbar-menu fw-bold">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-secondary" type="submit">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>Log In</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="section-hero">
+            <div class="row">
+                <div class="col-12 ms-0 ms-lg-4 d-lg-block px-lg-0 d-flex flex-column justify-content-center px-3 text-lg-start text-center">
+                    <h2 class="hero-heading fw-bold display-4 mb-3 px-lg-0 px-4">A Powerful Solution to grow your startup. Fast!</h2>
+                    <p class="hero-p fs-4 px-lg-0 px-3">Organize, collaborate, and track progress seamlessly with our one-stop-shop startup growth tool</p>
+                    <button class="btn-cta btn btn-primary d-inline-block mb-lg-0 mb-4 px-lg-4 py-lg-2 py-3">Get started</button>
+                    <button class="btn-cta btn btn-secondary d-inline-block mb-lg-0 mb-4 px-lg-4 py-lg-2 py-3">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Book a Demo</span>
+                    </button>
+                    <img srcset="./images/hero-bg.png, ./images/hero-bg-mobile.png"
+                         sizes="(min-width: 62em), (max-width: 62e),"
+                         alt="photo 1"
+                         class="img-fluid mt-md-n4 mt-lg-n7  hero-img"
+                         src="./images/hero-bg-mobile.png"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <div class="section-details container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-content-center pt-lg-6 pt-5">
+                    <h2 class="about-heading fw-semibold display-4 align-self-center text-white text-center mb-lg-5 mb-4">
+                        See how it works and get started in less than 2 minutes
+                    </h2>
+                    <img src="./images/video-preview.png" alt="preview of a video" class="about-img img-fluid align-self-center mb-lg-5 mb-4">
+                    <button class="btn btn-primary d-inline-block align-self-lg-center text-white mx-lg-0 mt-3 mb-5 py-3 px-5 rounded-4 mx-2">
+                        Get started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark">
+        <div class="section-testimonials container">
+            <div class="row">
+                <div class="col-12 d-flex flex-column align-content-center pt-lg-6 mb-2 pt-5">
+                    <h2 class="testimonial-heading display-6 align-self-start text-white ms-lg-6 ms-2 mb-lg-5 mb-4">
+                        Don't just take our word for it, see the success stories from businesses just like yours.
+                    </h2>
+                    <div class="row pb-5 d-flex gap-5 justify-content-center ms-md-n3">
+                        <div class="col-10 col-md-3 card">
+                            <div class="card-body">
+                                <p class="card-text">“Our business has seen a significant increase in productivity since we started using the Growth app.”</p>
+                                <p class="card-text">
+                                    <span class="d-block fw-bold">Katherine Smith</span>
+                                    <span class="d-block">Capodopera</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-3 card">
+                            <div class="card-body">
+                                <p class="card-text">“As a small business owner, it's important to have a tool that can help me keep track of everything. The Growth app has been a lifesaver for me, allowing me to manage my contacts, schedule appointments, and track progress all in one place..”</p>
+                                <p class="card-text">
+                                    <span class="d-block fw-bold">Johnathan Lee</span>
+                                    <span class="d-block">Red Bolt</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-3 card">
+                            <div class="card-body">
+                                <p class="card-text">“The dashboards and reporting feature has provided valuable insights into our performance and helped us make data-driven decisions. It's a game changer for us.”</p>
+                                <p class="card-text">
+                                    <span class="d-block fw-bold">David Wilson</span>
+                                    <span class="d-block">Slide</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-pricing">
+            <div class="col-12 pt-5 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="pricing-heading display-6 mb-3">Pricing</h2>
+                <p class="pricing-description fs-5 ms-2 ms-md-0">Start free and scale while you grow. No hidden fees. Unlimited users for free.</p>
+                <div class="row mt-4 d-flex mb-4 justify-content-lg-center gap-4 gap-md-0">
+                    <div class="col-11 mx-auto col-md-4 mx-md-0 offset-md-2">
+                        <div class="card-body bg-secondary d-flex flex-column py-4 px-4 rounded-3">
+                            <div class="card-header display-6 py-4">
+                                Simple
+                            </div>
+                            <p class="card-text fs-5 mb-5">Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.</p>
+                            <p class="card-text mb-4">
+                                <span class="d-inline-block display-6 me-1">Free</span>
+                                <span class="d-inline-block fs-6">*No credit card needed</span>
+                            </p>
+                            <hr class="border border-dark border-1 opacity-50">
+                            <div class="card-features my-5">
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Real-Time Monitoring</span></p>
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Track key performance indicators</span></p>
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Schedule appointments</span></p>
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Organize, delegate and keep track of tasks</span></p>
+                            </div>
+                            <a href="#" class="btn btn-primary text-white rounded-3 py-2">Get started</a>
+                        </div>
+                    </div>
+                    <div class="col-11 mx-auto col-md-4 mx-md-0 d-flex">
+                        <div class="card-body text-white bg-black d-flex flex-column py-4 px-4 rounded-3 align-self-stretch">
+                            <div class="card-header display-6 py-4">
+                                Premium
+                            </div>
+                            <p class="card-text fs-5 mb-5">Keep track of your contacts, gain valuable insights, analyze live data and performance metrics.</p>
+                            <p class="card-text mb-4">
+                                <span class="d-inline-block display-6 me-1">$49</span>
+                                <span class="d-inline-block fs-6">/month</span>
+                            </p>
+                            <hr class="border border-muted border-1 opacity-50">
+                            <p class="card-text fw-semibold ">Everything from the free plan plus:</p>
+                            <div class="card-features my-4">
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Data-driven decisions</span></p>
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Data visualization</span></p>
+                                <p><i class="fa-solid fa-check"></i><span class="ms-2 fs-5">Schedule appointments</span></p>
+                            </div>
+                            <a href="#" class="btn btn-primary text-white rounded-3 mt-auto py-2">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="pricing-notice mb-4 fs-5">All prices are in USD and charged per month with applicable taxes added at checkout.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary">
+        <div class="container d-flex flex-column align-items-center pt-lg-7 pt-5 pb-6">
+            <h2 class="FAQ-heading display-6 text-center">Frequently Asked Questions</h2>
+            <div class="selections my-5">
+                <div class="btn-selections d-flex text-center py-3 px-4 rounded-3 gap-md-4 gap-1 text-nowrap">
+                    <a href="#" class="btn-selection btn btn-primary text-white rounded-3 py-2 px-3">All</a>
+                    <a href="#" class="btn-selection btn text-black rounded-3 py-2 px-3">Getting Started</a>
+                    <a href="#" class="btn-selection btn text-black rounded-3 py-2 px-3">Pricing</a>
+                </div>
+            </div>
+            <div class="FAQ-selections">
+                <div class="row">
+                    <div class="col-12 offset-0 col-md-10 offset-md-1">
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">How does the contact management feature help me keep track of clients and partners?</p>
+                                <p class="faq-content d-inline-block pe-3">Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">Can I customize the dashboards and reporting feature to display the metrics that are most important to my business?</p>
+                                <p class="faq-content d-inline-block pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad culpa enim blanditiis rem ipsum aliquam, unde iste fugit praesentium eos?</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">How does the task management feature help me delegate tasks to my team and track progress?</p>
+                                <p class="faq-content d-inline-block pe-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, a! Quaerat, voluptatum. Animi molestias ex quasi explicabo minima perferendis commodi.</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">Can I collaborate with my team in real-time using all tools?</p>
+                                <p class="faq-content d-inline-block pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque assumenda aut dolorem recusandae quibusdam aliquid. Repellat animi quam vitae.</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">Is the app available on all devices?</p>
+                                <p class="faq-content d-inline-block pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque assumenda aut dolorem recusandae quibusdam aliquid. Repellat animi quam vitae.</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                            <div class="faq-item">
+                                <i class="faq-icon fa-solid fa-plus"></i>
+                                <p class="faq-question fw-semibold fs-5 d-inline-block me-2">How does the app help me stay compliant when working with freelancers and contractors?</p>
+                                <p class="faq-content d-inline-block pe-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque assumenda aut dolorem recusandae quibusdam aliquid. Repellat animi quam vitae.</p>
+                            </div>
+                            <hr class="border border-muted border-1 opacity-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <div class="container pt-5 pb-5">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-10 mb-5 col-md-3">
+                    <img src="./images/logo-white.png" alt="Company Logo" class="img-fluid mb-4 align-self-start">
+                    <div class="card mb-4">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="card-title text-black fw-semibold fs-5 align-self-start">Subscribe to Newsletter</div>
+                            <p class="card-text mb-4">Subscribe now to receive tips on how to take your business to the next level.</p>
+                            <label for="newsletter" class="visually-hidden">Email Address</label>
+                            <input id="newsletter" type="text" class="form-control mb-3" placeholder="Enter your email">
+                            <button class="btn btn-primary text-white w-100">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="social-icons d-flex gap-4 justify-content-center justify-content-md-start">
+                        <a href="#"><i class="fa-brands fa-linkedin fa-2x text-white"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-2x text-white"></i></a>
+                    </div>
+                </div>
+                <div class="col-5 mb-5 col-md-3">
+                    <h3 class="heading-company fw-semibold text-white fs-6 ms-3">Company</h3>
+                    <ul class="list-group list-group-flush bg-transparent">
+                        <li class="list-group-item border-0 bg-transparent">
+                            <a href="#" class="text-decoration-none text-white">About Us</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent text-white">
+                            <a href="#" class="text-decoration-none text-white">Our Process</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent text-white">
+                            <a href="#" class="text-decoration-none text-white">Join Our Team</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-5 mb-5 col-md-3">
+                    <h3 class="heading-company fw-semibold text-white fs-6 ms-3">Resources</h3>
+                    <ul class="list-group list-group-flush bg-transparent">
+                        <li class="list-group-item border-0 bg-transparent">
+                            <a href="#" class="text-decoration-none text-white">News</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent text-white">
+                            <a href="#" class="text-decoration-none text-white">Research</a>
+                        </li>
+                        <li class="list-group-item border-0 bg-transparent text-white">
+                            <a href="#" class="text-decoration-none text-white text-nowrap">Recent Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 mb-5 col-md-3">
+                    <h3 class="heading-company fw-semibold text-white fs-6 ms-3">Contact</h3>
+                    <ul class="list-group list-group-flush bg-transparent">
+                        <li class="list-group-item border-0 bg-transparent text-white">
+                            <a href="#" class="text-decoration-none text-white">ahmedibrahim5182@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
