@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "build:dev": "webpack -w",
+    "build:dev": "webpack --mode production",
     "webpack:server": "webpack-dev-server",
     "start:webpack": "npx npm-run-all --parallel build:dev webpack:server"
   },
